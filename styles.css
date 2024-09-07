@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #ebebeb;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 960px; 
+    height: 960px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+button {
+    padding: 7px 14px;
+    border: none;
+    background-color: rgb(177, 177, 140);
+}
+
+.rainbow-btn.active {
+    background-color: rgb(39, 72, 73);
+    color: white;
+}

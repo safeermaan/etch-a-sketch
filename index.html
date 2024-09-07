@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Etch a sketch</title>
+</head>
+<body>
+    
+
+    <div class="main">
+        <div id="container"></div>
+    </div>
+    
+    <div class="controls">
+        <div class="grid-size">
+            <label for="rangeInput">Grid Size:</label>
+            <p><span id="rangeValue">32</span></p>
+            <input type="range" id="rangeInput" min="1" max="100" step="1" value="32" oninput="updateValue(this.value)">
+        </div>
+        <div class="brush-color">
+            <label for="color-input">Select 
+                <p>Color</p>
+            </label>
+            <input id="color-input" type="color" value="#000000">
+        </div>
+        <div>
+            <button class="rainbow-btn">
+                Rainbow ON/OFF
+            </button>
+            <button class="clear-btn">
+                Clear
+            </button>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+
+
+
+</body>
+</html>
